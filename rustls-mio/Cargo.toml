@@ -29,7 +29,7 @@ regex = "1.0"
 serde = "1.0"
 serde_derive = "1.0"
 webpki-roots = "0.21"
-ring = { git= "https://github.com/bltavares/ring" , branch = "mips"}
+ring = { git= "https://github.com/bltavares/ring" , branch = "mips",version = "0.16.19"}
 
 [[example]]
 name = "tlsclient"
