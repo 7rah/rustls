@@ -13,7 +13,7 @@ autobenches = false
 
 [dependencies]
 log = { version = "0.4.4", optional = true }
-ring = "0.16.19"
+ring = { git= "https://github.com/bltavares/ring" , branch = "mips"}
 sct = "0.6.0"
 webpki = "0.21.4"
 
